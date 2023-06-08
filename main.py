@@ -19,7 +19,7 @@ def my_form_post():
     score = ((sid.polarity_scores(str(text))))['compound']
 
     if(score > 0):
-        label = 'This sentence is positive :)'
+        label = 'This sentence is positive :)2'
     elif(score == 0):
         label = 'This sentence is neutral :|'
     else:
