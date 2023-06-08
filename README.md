@@ -1,6 +1,6 @@
-## Text Analyzer App
+# Text Analyzer App
 
-# Hi and Welcome...
+## Hi and Welcome...
 
-# Here are some Pictures from the App:
+## Here are some Pictures from the App:
 
