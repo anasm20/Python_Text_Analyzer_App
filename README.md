@@ -1,4 +1,4 @@
-# Text_Analyzer_App
+## Text Analyzer App
 
 # Hi and Welcome...
 
