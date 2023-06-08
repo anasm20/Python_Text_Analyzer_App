@@ -1,6 +1,6 @@
 # Text_Analyzer_App
 
-Hi and Welcome.
+# Hi and Welcome...
 
-Here some Picturs from the App:
+# Here are some Pictures from the App:
 
