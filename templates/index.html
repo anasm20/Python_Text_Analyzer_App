@@ -1,15 +1,15 @@
 <html>
   <head>
-    <body style="background-color:#236015;">
+    <body style="background-color:#236015;">  <!-- Sets the background color of the body -->
     </body>
     <link
       rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"  <!-- Link to Bootstrap CSS -->
       integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
       crossorigin="anonymous"
     />
     <script
-      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"  <!-- Link to Bootstrap JavaScript -->
       integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
       crossorigin="anonymous"
     ></script>
@@ -27,7 +27,7 @@
       }
 
       p {
-        color: #FFFFFF;
+        color: #FFFFFF;  <!-- Sets the color of paragraphs to white -->
         font-family: 'Helvetica Neue', sans-serif;
         font-size: 22px;
         line-height: 24px;
@@ -36,7 +36,7 @@
       }
 
       h1 {
-        color: #FFFFFF;
+        color: #FFFFFF;  <!-- Sets the color of heading 1 (h1) to white -->
         font-family: 'Helvetica Neue', sans-serif;
         font-size: 56px;
         font-weight: bold;
@@ -46,7 +46,7 @@
       }
 
       #demo {
-        color: #FFFFFF;
+        color: #FFFFFF;  <!-- Sets the color of an element with the ID 'demo' to white -->
         font-family: 'Helvetica Neue', sans-serif;
         font-size: 32px;
         line-height: 34px;
@@ -65,27 +65,20 @@
     <div class="container mt-5">
       <div class="centered">
         <div class="text-center text-white">
-          <title>Sentiment Analyzer</title>
+          <title>Sentiment Analyzer</title>  <!-- Sets the title of the page to 'Sentiment Analyzer' -->
         </div>
-        <h1 class="header">Hi and welcome to Sentiment Analyzer</h1>
+        <h1 class="header">Hi and welcome to Sentiment Analyzer</h1>  <!-- Heading 1 (h1) with a welcome message -->
 
         <p class="desc">
-          Type a sentence below to predict the sentiment
+          Type a sentence below to predict the sentiment  <!-- Description paragraph -->
         </p>
 
-        <form method="POST" onSubmit="return validate();" class="form">
+        <form method="POST" onSubmit="return validate();" class="form">  <!-- Form element with the method set to POST -->
           <div class="form-div">
-            <input type="text" name="text" class="form-control mr-2" />
+            <input type="text" name="text" class="form-control mr-2" />  <!-- Input field for the user to enter the sentence -->
             <button type="submit" class="btn btn-outline-primary" onclick="this.form.submit();">
               Apply
-            </button>
+            </button>  <!-- Submit button for the form -->
           </div>
         </form>
         <br />
-        <br />
-
-        <p id="demo">{{ variable }}</p>
-      </div>
-    </div>
-  </body>
-</html>
